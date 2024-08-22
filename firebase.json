@@ -1,0 +1,25 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "appId": "1:22525020677:android:b9176f52d3a2ec820f2a6c",
+          "fileOutput": "android/app/google-services.json",
+          "projectId": "hostel-70c69"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "configurations": {
+            "android": "1:22525020677:android:b9176f52d3a2ec820f2a6c",
+            "ios": "1:22525020677:ios:8017a6a2edd3bec90f2a6c",
+            "macos": "1:22525020677:ios:8017a6a2edd3bec90f2a6c",
+            "web": "1:22525020677:web:6f88955efec427030f2a6c",
+            "windows": "1:22525020677:web:2fb4727ca22888b20f2a6c"
+          },
+          "projectId": "hostel-70c69"
+        }
+      }
+    }
+  }
+}
