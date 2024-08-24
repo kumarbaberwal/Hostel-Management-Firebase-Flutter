@@ -20,7 +20,7 @@ class AuthCheck extends StatelessWidget {
         } else if (snapshot.hasData) {
           // User is logged in, so fetch their data
           final user = snapshot.data!;
-          Provider.of<UserProvider>(context, listen: false).setUser(user.uid);
+          Provider.of<UserProvider>(context, listen: false).setUid(user.uid);
 
           return const HomeScreen(); // Show the home screen
         } else {
